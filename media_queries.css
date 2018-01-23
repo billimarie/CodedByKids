@@ -1,0 +1,20 @@
+/* Mobile */
+@media (min-width: 400px) {
+    h1 {
+        background-color: red;
+    }
+}
+
+/* Tablet */
+@media (min-width: 800px) {
+    h1 {
+        background-color: yellow;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    h1 {
+        background-color: blue;
+    }
+}
