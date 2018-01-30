@@ -1,5 +1,12 @@
+body {
+    background-image: url('https://media.coindesk.com/uploads/2014/11/Screen-Shot-2014-11-21-at-3.29.20-PM.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
 h1 {
-    color: #10ff00;
+    color: black;
     font-family: "Helvetica";
 }
 
@@ -14,23 +21,16 @@ img {
     text-align: center;
     margin: 0 auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+/* Section Styles */
+section.intro {
+    background-color: rgba(0,0,0,0.4);
+    border: 5px dashed red;
+}
 /* Navbar Styles */
 header {
     background-color: pink;
     font-family: "Arial";
-    font-size: 42px;
+    font-size: 24px;
 }
 ul {
     list-style: none;
@@ -41,3 +41,12 @@ li {
     padding: 0 15px;
 }
 /* End Navbar Styles */
+
+/* About Styles */
+.about-page {
+    background-image: url('https://cdn-images-1.medium.com/max/1600/1*vUatPBOeK1JP9gbKmcmgqA.png');
+}
+.about-page h1 {}
+.about-page h1.web {}
+.web {}
+h1.web {}
